@@ -46,7 +46,17 @@ namespace AgeCalculator
                 int ageDays = ageDifferenceDays % 7;
                 // Console.WriteLine("ageDifferenceDays: " + ageDifferenceDays);
 
-                Console.WriteLine("You are {0} years, {1} weeks, and {2} days old", ageYears, ageWeeks, ageDays);
+                // Calculate difference between today and birthday
+                TimeSpan difference = todaysDate.Subtract(birthday);
+                //Console.WriteLine(" Difference: " + difference);
+                int ageHours = difference.Hours;
+                int ageMinutes = difference.Minutes;
+                int ageSeconds = difference.Seconds;
+                int ageMilliseconds = difference.Milliseconds;
+
+                Console.WriteLine("Your age is: {0} years, {1} weeks, {2} days, " + 
+                                    "{3} hours, {4} minutes, {5} seconds, {6} milliseconds", 
+                                        ageYears, ageWeeks, ageDays, ageHours, ageMinutes, ageSeconds, ageMilliseconds);
                          
             }
             catch (Exception e)
