@@ -41,17 +41,17 @@ namespace AgeCalculator
                     DateTime lastYearsBirthday = birthday.AddYears(-1);
 ;                   ageDifferenceDays = 365 - lastYearsBirthday.DayOfYear + todaysDate.DayOfYear;
                 }
-              
+                // Calculate the weeks and days from the total days
                 int ageWeeks = ageDifferenceDays / 7;
                 int ageDays = ageDifferenceDays % 7;
                 // Console.WriteLine("ageDifferenceDays: " + ageDifferenceDays);
+
                 Console.WriteLine("You are {0} years, {1} weeks, and {2} days old", ageYears, ageWeeks, ageDays);
                          
             }
             catch (Exception e)
             {
                 Console.WriteLine(e.Message);
-
             }
 
             Console.ReadLine();
