@@ -1,0 +1,6 @@
+C:\dev\01-AgeCalculator\AgeCalculator-Cm\bin\Debug\AgeCalculator-Cm.exe.config
+C:\dev\01-AgeCalculator\AgeCalculator-Cm\bin\Debug\AgeCalculator-Cm.exe
+C:\dev\01-AgeCalculator\AgeCalculator-Cm\bin\Debug\AgeCalculator-Cm.pdb
+C:\dev\01-AgeCalculator\AgeCalculator-Cm\obj\Debug\AgeCalculator-Cm.csprojResolveAssemblyReference.cache
+C:\dev\01-AgeCalculator\AgeCalculator-Cm\obj\Debug\AgeCalculator-Cm.exe
+C:\dev\01-AgeCalculator\AgeCalculator-Cm\obj\Debug\AgeCalculator-Cm.pdb
